@@ -1,6 +1,6 @@
 #project Ra
 ## first
-```
+```bash
 git clone https://github.com/brendena/Project_Ra
 git branch yourName 
 ### this will be your personal branch of your code
@@ -16,7 +16,7 @@ own code.
 
 
 ## Ready to commit
-```
+```bash
 git add --all
 ### will add all the file and all the changes 
 ### that you've made
@@ -37,7 +37,7 @@ Else if where all working on the same piece of
 code and we need to merge a lot sooner because
 you have a piece of code that everbody else needs.
 Then do a 
-```
+```bash
 git push origin master
 ```
 And probably at the end of the day i'll go through 
