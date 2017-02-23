@@ -1,5 +1,10 @@
 #project Ra
-## first
+## description
+scrape the sun data.
+## branches
+### [brenden](https://github.com/brendena/Project_Ra/tree/brenden)
+
+## getting started
 ```bash
 git clone https://github.com/brendena/Project_Ra
 git branch yourName 
