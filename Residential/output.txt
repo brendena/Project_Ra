@@ -1,0 +1,429 @@
+CA BASE
+---------------------------------------------------------------
+Electricity:Facility [kW](Hourly)                  0.905277
+Gas:Facility [kW](Hourly)                          0.760306
+Heating:Electricity [kW](Hourly)                   0.000000
+Heating:Gas [kW](Hourly)                           0.179150
+Cooling:Electricity [kW](Hourly)                   0.055994
+HVACFan:Fans:Electricity [kW](Hourly)              0.025744
+Electricity:HVAC [kW](Hourly)                      0.081738
+Fans:Electricity [kW](Hourly)                      0.025744
+General:InteriorLights:Electricity [kW](Hourly)    0.163343
+General:ExteriorLights:Electricity [kW](Hourly)    0.033503
+Appl:InteriorEquipment:Electricity [kW](Hourly)    0.243630
+Misc:InteriorEquipment:Electricity [kW](Hourly)    0.365487
+Water Heater:WaterSystems:Gas [kW](Hourly)         0.555979
+dtype: float64
+
+
+CA LOW
+---------------------------------------------------------------
+Electricity:Facility [kW](Hourly)                   0.463852
+Gas:Facility [kW](Hourly)                           0.478676
+Heating:Electricity [kW](Hourly)                    0.000000
+Heating:Gas [kW](Hourly)                            0.001779
+Cooling:Electricity [kW](Hourly)                    0.021698
+HVACFan:Fans:Electricity [kW](Hourly)               0.005477
+Electricity:HVAC [kW](Hourly)                       0.027175
+Fans:Electricity [kW](Hourly)                       0.005477
+General:InteriorLights:Electricity [kW](Hourly)     0.065537
+General:ExteriorLights:Electricity [kW](Hourly)     0.010946
+Appl:InteriorEquipment:Electricity [kW](Hourly)     0.059999
+Misc:InteriorEquipment:Electricity [kW](Hourly)     0.288497
+dtype: float64
+
+
+CA HIGH
+---------------------------------------------------------------
+Electricity:Facility [kW](Hourly)                   1.340226
+Gas:Facility [kW](Hourly)                           1.391396
+Heating:Electricity [kW](Hourly)                    0.000000
+Heating:Gas [kW](Hourly)                            0.735041
+Cooling:Electricity [kW](Hourly)                    0.192365
+HVACFan:Fans:Electricity [kW](Hourly)               0.070285
+Electricity:HVAC [kW](Hourly)                       0.262650
+Fans:Electricity [kW](Hourly)                       0.070285
+General:InteriorLights:Electricity [kW](Hourly)     0.255982
+General:ExteriorLights:Electricity [kW](Hourly)     0.055426
+Appl:InteriorEquipment:Electricity [kW](Hourly)     0.302307
+Misc:InteriorEquipment:Electricity [kW](Hourly)     0.440823
+dtype: float64
+
+
+===============================================================
+
+FL BASE
+---------------------------------------------------------------
+Electricity:Facility [kW](Hourly)                      1.627440
+Gas:Facility [kW](Hourly)                              0.000000
+Heating:Electricity [kW](Hourly)                       0.039765
+Cooling:Electricity [kW](Hourly)                       0.363566
+HVACFan:Fans:Electricity [kW](Hourly)                  0.110552
+Electricity:HVAC [kW](Hourly)                          0.513883
+Fans:Electricity [kW](Hourly)                          0.110552
+General:InteriorLights:Electricity [kW](Hourly)        0.163343
+General:ExteriorLights:Electricity [kW](Hourly)        0.033503
+Appl:InteriorEquipment:Electricity [kW](Hourly)        0.243630
+Misc:InteriorEquipment:Electricity [kW](Hourly)        0.390453
+Water Heater:WaterSystems:Electricity [kW](Hourly)     0.265053
+dtype: float64
+
+
+FL LOW
+---------------------------------------------------------------
+Electricity:Facility [kW](Hourly)                      0.830785
+Gas:Facility [kW](Hourly)                              0.099216
+Heating:Electricity [kW](Hourly)                       0.000993
+Cooling:Electricity [kW](Hourly)                       0.165112
+HVACFan:Fans:Electricity [kW](Hourly)                  0.033012
+Electricity:HVAC [kW](Hourly)                          0.199117
+Fans:Electricity [kW](Hourly)                          0.033012
+General:InteriorLights:Electricity [kW](Hourly)        0.065177
+General:ExteriorLights:Electricity [kW](Hourly)        0.010850
+Appl:InteriorEquipment:Electricity [kW](Hourly)        0.059999
+Misc:InteriorEquipment:Electricity [kW](Hourly)        0.288060
+Water Heater:WaterSystems:Electricity [kW](Hourly)     0.195911
+dtype: float64
+
+
+FL HIGH
+---------------------------------------------------------------
+Electricity:Facility [kW](Hourly)                      2.872553
+Gas:Facility [kW](Hourly)                              0.000000
+Heating:Electricity [kW](Hourly)                       0.268232
+Cooling:Electricity [kW](Hourly)                       0.972358
+HVACFan:Fans:Electricity [kW](Hourly)                  0.214142
+Electricity:HVAC [kW](Hourly)                          1.454732
+Fans:Electricity [kW](Hourly)                          0.214142
+General:InteriorLights:Electricity [kW](Hourly)        0.260690
+General:ExteriorLights:Electricity [kW](Hourly)        0.056686
+Appl:InteriorEquipment:Electricity [kW](Hourly)        0.302307
+Misc:InteriorEquipment:Electricity [kW](Hourly)        0.474459
+Water Heater:WaterSystems:Electricity [kW](Hourly)     0.300436
+dtype: float64
+
+
+===============================================================
+
+ME BASE
+---------------------------------------------------------------
+Electricity:Facility [kW](Hourly)                  1.031913
+Gas:Facility [kW](Hourly)                          4.818679
+Heating:Electricity [kW](Hourly)                   0.000000
+Heating:Gas [kW](Hourly)                           4.044614
+Cooling:Electricity [kW](Hourly)                   0.007020
+HVACFan:Fans:Electricity [kW](Hourly)              0.113697
+Electricity:HVAC [kW](Hourly)                      0.120717
+Fans:Electricity [kW](Hourly)                      0.113697
+General:InteriorLights:Electricity [kW](Hourly)    0.205335
+General:ExteriorLights:Electricity [kW](Hourly)    0.044737
+Appl:InteriorEquipment:Electricity [kW](Hourly)    0.243630
+Misc:InteriorEquipment:Electricity [kW](Hourly)    0.398507
+Water Heater:WaterSystems:Gas [kW](Hourly)         0.746616
+dtype: float64
+
+
+ME LOW
+---------------------------------------------------------------
+Electricity:Facility [kW](Hourly)                   0.497968
+Gas:Facility [kW](Hourly)                           1.934754
+Heating:Electricity [kW](Hourly)                    0.000000
+Heating:Gas [kW](Hourly)                            1.333637
+Cooling:Electricity [kW](Hourly)                    0.002988
+HVACFan:Fans:Electricity [kW](Hourly)               0.026802
+Electricity:HVAC [kW](Hourly)                       0.029790
+Fans:Electricity [kW](Hourly)                       0.026802
+General:InteriorLights:Electricity [kW](Hourly)     0.077843
+General:ExteriorLights:Electricity [kW](Hourly)     0.014238
+Appl:InteriorEquipment:Electricity [kW](Hourly)     0.059999
+Misc:InteriorEquipment:Electricity [kW](Hourly)     0.303476
+dtype: float64
+
+
+ME HIGH
+---------------------------------------------------------------
+Electricity:Facility [kW](Hourly)                   1.538745
+Gas:Facility [kW](Hourly)                           7.115424
+Heating:Electricity [kW](Hourly)                    0.000000
+Heating:Gas [kW](Hourly)                            6.281039
+Cooling:Electricity [kW](Hourly)                    0.112955
+HVACFan:Fans:Electricity [kW](Hourly)               0.200729
+Electricity:HVAC [kW](Hourly)                       0.313684
+Fans:Electricity [kW](Hourly)                       0.200729
+General:InteriorLights:Electricity [kW](Hourly)     0.329242
+General:ExteriorLights:Electricity [kW](Hourly)     0.075025
+Appl:InteriorEquipment:Electricity [kW](Hourly)     0.302307
+Misc:InteriorEquipment:Electricity [kW](Hourly)     0.492274
+dtype: float64
+
+
+===============================================================
+
+NY BASE
+---------------------------------------------------------------
+Electricity:Facility [kW](Hourly)                  1.032031
+Gas:Facility [kW](Hourly)                          4.514688
+Heating:Electricity [kW](Hourly)                   0.000000
+Heating:Gas [kW](Hourly)                           3.740993
+Cooling:Electricity [kW](Hourly)                   0.013393
+HVACFan:Fans:Electricity [kW](Hourly)              0.107442
+Electricity:HVAC [kW](Hourly)                      0.120835
+Fans:Electricity [kW](Hourly)                      0.107442
+General:InteriorLights:Electricity [kW](Hourly)    0.205335
+General:ExteriorLights:Electricity [kW](Hourly)    0.044737
+Appl:InteriorEquipment:Electricity [kW](Hourly)    0.243630
+Misc:InteriorEquipment:Electricity [kW](Hourly)    0.398507
+Water Heater:WaterSystems:Gas [kW](Hourly)         0.746246
+dtype: float64
+
+
+NY LOW
+---------------------------------------------------------------
+Electricity:Facility [kW](Hourly)                   0.500343
+Gas:Facility [kW](Hourly)                           1.832640
+Heating:Electricity [kW](Hourly)                    0.000000
+Heating:Gas [kW](Hourly)                            1.232747
+Cooling:Electricity [kW](Hourly)                    0.006549
+HVACFan:Fans:Electricity [kW](Hourly)               0.025616
+Electricity:HVAC [kW](Hourly)                       0.032165
+Fans:Electricity [kW](Hourly)                       0.025616
+General:InteriorLights:Electricity [kW](Hourly)     0.077843
+General:ExteriorLights:Electricity [kW](Hourly)     0.014238
+Appl:InteriorEquipment:Electricity [kW](Hourly)     0.059999
+Misc:InteriorEquipment:Electricity [kW](Hourly)     0.303476
+dtype: float64
+
+
+NY HIGH
+---------------------------------------------------------------
+Electricity:Facility [kW](Hourly)                   1.576430
+Gas:Facility [kW](Hourly)                           6.633992
+Heating:Electricity [kW](Hourly)                    0.000000
+Heating:Gas [kW](Hourly)                            5.799042
+Cooling:Electricity [kW](Hourly)                    0.153628
+HVACFan:Fans:Electricity [kW](Hourly)               0.197741
+Electricity:HVAC [kW](Hourly)                       0.351369
+Fans:Electricity [kW](Hourly)                       0.197741
+General:InteriorLights:Electricity [kW](Hourly)     0.329242
+General:ExteriorLights:Electricity [kW](Hourly)     0.075025
+Appl:InteriorEquipment:Electricity [kW](Hourly)     0.302307
+Misc:InteriorEquipment:Electricity [kW](Hourly)     0.492274
+dtype: float64
+
+
+===============================================================
+
+NY BASE
+---------------------------------------------------------------
+Electricity:Facility [kW](Hourly)                      1.419932
+Gas:Facility [kW](Hourly)                              2.208394
+Heating:Electricity [kW](Hourly)                       0.000000
+Heating:Gas [kW](Hourly)                               2.181467
+Cooling:Electricity [kW](Hourly)                       0.105903
+HVACFan:Fans:Electricity [kW](Hourly)                  0.084669
+Electricity:HVAC [kW](Hourly)                          0.190572
+Fans:Electricity [kW](Hourly)                          0.084669
+General:InteriorLights:Electricity [kW](Hourly)        0.195688
+General:ExteriorLights:Electricity [kW](Hourly)        0.042156
+Appl:InteriorEquipment:Electricity [kW](Hourly)        0.243630
+Misc:InteriorEquipment:Electricity [kW](Hourly)        0.390921
+Water Heater:WaterSystems:Electricity [kW](Hourly)     0.338446
+dtype: float64
+
+
+NY LOW
+---------------------------------------------------------------
+Electricity:Facility [kW](Hourly)                      0.772372
+Gas:Facility [kW](Hourly)                              0.656644
+Heating:Electricity [kW](Hourly)                       0.000000
+Heating:Gas [kW](Hourly)                               0.556608
+Cooling:Electricity [kW](Hourly)                       0.043000
+HVACFan:Fans:Electricity [kW](Hourly)                  0.018004
+Electricity:HVAC [kW](Hourly)                          0.061004
+Fans:Electricity [kW](Hourly)                          0.018004
+General:InteriorLights:Electricity [kW](Hourly)        0.074966
+General:ExteriorLights:Electricity [kW](Hourly)        0.013468
+Appl:InteriorEquipment:Electricity [kW](Hourly)        0.059999
+Misc:InteriorEquipment:Electricity [kW](Hourly)        0.299974
+Water Heater:WaterSystems:Electricity [kW](Hourly)     0.250554
+dtype: float64
+
+
+NY HIGH
+---------------------------------------------------------------
+Electricity:Facility [kW](Hourly)                      2.075698
+Gas:Facility [kW](Hourly)                              3.891766
+Heating:Electricity [kW](Hourly)                       0.000000
+Heating:Gas [kW](Hourly)                               3.858510
+Cooling:Electricity [kW](Hourly)                       0.319920
+HVACFan:Fans:Electricity [kW](Hourly)                  0.171945
+Electricity:HVAC [kW](Hourly)                          0.491864
+Fans:Electricity [kW](Hourly)                          0.171945
+General:InteriorLights:Electricity [kW](Hourly)        0.314701
+General:ExteriorLights:Electricity [kW](Hourly)        0.071135
+Appl:InteriorEquipment:Electricity [kW](Hourly)        0.302307
+Misc:InteriorEquipment:Electricity [kW](Hourly)        0.482062
+Water Heater:WaterSystems:Electricity [kW](Hourly)     0.388047
+dtype: float64
+
+
+===============================================================
+
+TX BASE
+---------------------------------------------------------------
+Electricity:Facility [kW](Hourly)                      1.710906
+Gas:Facility [kW](Hourly)                              0.000000
+Heating:Electricity [kW](Hourly)                       0.180342
+Cooling:Electricity [kW](Hourly)                       0.317423
+HVACFan:Fans:Electricity [kW](Hourly)                  0.099096
+Electricity:HVAC [kW](Hourly)                          0.596861
+Fans:Electricity [kW](Hourly)                          0.099096
+General:InteriorLights:Electricity [kW](Hourly)        0.163343
+General:ExteriorLights:Electricity [kW](Hourly)        0.033503
+Appl:InteriorEquipment:Electricity [kW](Hourly)        0.243630
+Misc:InteriorEquipment:Electricity [kW](Hourly)        0.390453
+Water Heater:WaterSystems:Electricity [kW](Hourly)     0.265540
+dtype: float64
+
+
+TX LOW
+---------------------------------------------------------------
+Electricity:Facility [kW](Hourly)                      0.818656
+Gas:Facility [kW](Hourly)                              0.099216
+Heating:Electricity [kW](Hourly)                       0.013777
+Cooling:Electricity [kW](Hourly)                       0.144199
+HVACFan:Fans:Electricity [kW](Hourly)                  0.028447
+Electricity:HVAC [kW](Hourly)                          0.186423
+Fans:Electricity [kW](Hourly)                          0.028447
+General:InteriorLights:Electricity [kW](Hourly)        0.065177
+General:ExteriorLights:Electricity [kW](Hourly)        0.010850
+Appl:InteriorEquipment:Electricity [kW](Hourly)        0.059999
+Misc:InteriorEquipment:Electricity [kW](Hourly)        0.288060
+Water Heater:WaterSystems:Electricity [kW](Hourly)     0.196476
+dtype: float64
+
+
+TX HIGH
+---------------------------------------------------------------
+Electricity:Facility [kW](Hourly)                      3.116846
+Gas:Facility [kW](Hourly)                              0.000000
+Heating:Electricity [kW](Hourly)                       0.660466
+Cooling:Electricity [kW](Hourly)                       0.839421
+HVACFan:Fans:Electricity [kW](Hourly)                  0.196529
+Electricity:HVAC [kW](Hourly)                          1.696416
+Fans:Electricity [kW](Hourly)                          0.196529
+General:InteriorLights:Electricity [kW](Hourly)        0.260690
+General:ExteriorLights:Electricity [kW](Hourly)        0.056686
+Appl:InteriorEquipment:Electricity [kW](Hourly)        0.302307
+Misc:InteriorEquipment:Electricity [kW](Hourly)        0.474459
+Water Heater:WaterSystems:Electricity [kW](Hourly)     0.303045
+dtype: float64
+
+
+===============================================================
+
+WA BASE
+---------------------------------------------------------------
+Electricity:Facility [kW](Hourly)                  0.884893
+Gas:Facility [kW](Hourly)                          2.582729
+Heating:Electricity [kW](Hourly)                   0.000000
+Heating:Gas [kW](Hourly)                           1.872873
+HVACFan:Fans:Electricity [kW](Hourly)              0.050147
+Electricity:HVAC [kW](Hourly)                      0.050147
+Fans:Electricity [kW](Hourly)                      0.050147
+General:InteriorLights:Electricity [kW](Hourly)    0.168971
+General:ExteriorLights:Electricity [kW](Hourly)    0.035009
+Appl:InteriorEquipment:Electricity [kW](Hourly)    0.243630
+Misc:InteriorEquipment:Electricity [kW](Hourly)    0.369913
+Water Heater:WaterSystems:Gas [kW](Hourly)         0.684375
+dtype: float64
+
+
+WA LOW
+---------------------------------------------------------------
+Electricity:Facility [kW](Hourly)                   0.455814
+Gas:Facility [kW](Hourly)                           0.973178
+Heating:Electricity [kW](Hourly)                    0.000000
+Heating:Gas [kW](Hourly)                            0.396564
+HVACFan:Fans:Electricity [kW](Hourly)               0.012592
+Electricity:HVAC [kW](Hourly)                       0.012592
+Fans:Electricity [kW](Hourly)                       0.012592
+General:InteriorLights:Electricity [kW](Hourly)     0.068094
+General:ExteriorLights:Electricity [kW](Hourly)     0.011630
+Appl:InteriorEquipment:Electricity [kW](Hourly)     0.059999
+Misc:InteriorEquipment:Electricity [kW](Hourly)     0.291610
+dtype: float64
+
+
+WA HIGH
+---------------------------------------------------------------
+Electricity:Facility [kW](Hourly)                   1.194625
+Gas:Facility [kW](Hourly)                           4.380587
+Heating:Electricity [kW](Hourly)                    0.000000
+Heating:Gas [kW](Hourly)                            3.548912
+HVACFan:Fans:Electricity [kW](Hourly)               0.095024
+Electricity:HVAC [kW](Hourly)                       0.095024
+Fans:Electricity [kW](Hourly)                       0.095024
+General:InteriorLights:Electricity [kW](Hourly)     0.266922
+General:ExteriorLights:Electricity [kW](Hourly)     0.058353
+Appl:InteriorEquipment:Electricity [kW](Hourly)     0.302307
+Misc:InteriorEquipment:Electricity [kW](Hourly)     0.448507
+dtype: float64
+
+
+===============================================================
+
+WI BASE
+---------------------------------------------------------------
+Electricity:Facility [kW](Hourly)                  1.040528
+Gas:Facility [kW](Hourly)                          4.821361
+Heating:Electricity [kW](Hourly)                   0.000000
+Heating:Gas [kW](Hourly)                           4.048145
+Cooling:Electricity [kW](Hourly)                   0.013420
+HVACFan:Fans:Electricity [kW](Hourly)              0.115911
+Electricity:HVAC [kW](Hourly)                      0.129331
+Fans:Electricity [kW](Hourly)                      0.115911
+General:InteriorLights:Electricity [kW](Hourly)    0.205335
+General:ExteriorLights:Electricity [kW](Hourly)    0.044737
+Appl:InteriorEquipment:Electricity [kW](Hourly)    0.243630
+Misc:InteriorEquipment:Electricity [kW](Hourly)    0.398507
+Water Heater:WaterSystems:Gas [kW](Hourly)         0.745768
+dtype: float64
+
+
+WI LOW
+---------------------------------------------------------------
+Electricity:Facility [kW](Hourly)                   0.503750
+Gas:Facility [kW](Hourly)                           1.996304
+Heating:Electricity [kW](Hourly)                    0.000000
+Heating:Gas [kW](Hourly)                            1.396476
+Cooling:Electricity [kW](Hourly)                    0.006703
+HVACFan:Fans:Electricity [kW](Hourly)               0.028870
+Electricity:HVAC [kW](Hourly)                       0.035573
+Fans:Electricity [kW](Hourly)                       0.028870
+General:InteriorLights:Electricity [kW](Hourly)     0.077843
+General:ExteriorLights:Electricity [kW](Hourly)     0.014238
+Appl:InteriorEquipment:Electricity [kW](Hourly)     0.059999
+Misc:InteriorEquipment:Electricity [kW](Hourly)     0.303476
+dtype: float64
+
+
+WI HIGH
+---------------------------------------------------------------
+Electricity:Facility [kW](Hourly)                   1.596000
+Gas:Facility [kW](Hourly)                           7.200549
+Heating:Electricity [kW](Hourly)                    0.000000
+Heating:Gas [kW](Hourly)                            6.366406
+Cooling:Electricity [kW](Hourly)                    0.154369
+HVACFan:Fans:Electricity [kW](Hourly)               0.216570
+Electricity:HVAC [kW](Hourly)                       0.370939
+Fans:Electricity [kW](Hourly)                       0.216570
+General:InteriorLights:Electricity [kW](Hourly)     0.329242
+General:ExteriorLights:Electricity [kW](Hourly)     0.075025
+Appl:InteriorEquipment:Electricity [kW](Hourly)     0.302307
+Misc:InteriorEquipment:Electricity [kW](Hourly)     0.492274
+dtype: float64
+
+
+===============================================================
+
