@@ -5,15 +5,20 @@ from pylab import pie
 from random import uniform 
 #from Render import SoupJSRender
 from Render import JSRender
+import csv
 import time
 import pickle
 import sys
+import json
 
 class ScrappingClass:
     def __init__(self):
         print("nothing yet")
         self.data = []
         self.JSRender = JSRender()
+        self.cvsFile = "googleSunRoofData.csv"
+        self.f = open(self.cvsFile, 'w')
+        self.allData = []
 
         
   
@@ -53,9 +58,17 @@ class ScrappingClass:
 
         elif(typeAddress == "place"):
             print("hi")
-            self.JSRender.getAddressPageInfo(url,place)
-        
+            info = self.JSRender.getZipCodePageInfo(url)
+            aList = []
+            aList.append(info)
+            aList.append(info)
+            f = open('workfile.csv', 'w+')
+            output = csv.writer(f)
+            output = csv.writer(f)
+            output.writerow(aList[0].keys())
 
+            for row in aList:
+                output.writerow(row.values())
 
     '''%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -65,16 +78,38 @@ class ScrappingClass:
 
     def loopThroughAllAddress(self, address):
         loop = [
-            {"address":"05401", "typeAddress":"place"}
-            #{"address":"15 Glendale  USA", "typeAddress":"address"},
-            #{"address":"15 Glendale Ave, Somerville, MA 02144, USA", "typeAddress":"address"},
-            #{"address":"15 Glendale Ave, Somerville, MA 02144, USA", "typeAddress":"address"},
-            #{"address":"15 Glendale Ave, Somerville, MA 02144, USA", "typeAddress":"address"},
-            #
-            
+            #{"address":"15 Glendale Ave, Somerville, MA 02144, USA", "typeAddress":"address"},            
         ]
-        for i in loop:
-            self.getPagesInfo(i["address"], i["typeAddress"])
+
+        output = csv.writer(self.f)
+
+        with open('listPlacesScrape.json') as data_file:
+            data = json.load(data_file)
+        for region in data:
+            for zipCode in data[region]:
+                self.getZipCodeInfo(region,zipCode["zipCode"],zipCode["url"])
+            
+
+
+        count = 0
+        output = csv.writer(self.f)
+        for i in self.allData:
+            if(count == 0 ):
+                header = i.keys()
+                output.writerow(header)
+                count = 1
+            output.writerow(i.values())
+
+        print("done")
+
+    def getZipCodeInfo(self,town,zipCode,url):
+        zipCodeInfo = self.JSRender.getZipCodePageInfo(url)
+        #if(self.f.stat("file").st_size == 0):
+        #    output.writerow(aList[0].keys())
+
+        zipCodeInfo["town"] = town
+        zipCodeInfo["zip_code"] = zipCode
+        self.allData.append(zipCodeInfo)
         
 
 

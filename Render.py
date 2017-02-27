@@ -29,8 +29,8 @@ TODO
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!'''
 class JSRender:
     def __init__(self):
-        #self.driver = webdriver.PhantomJS()
-        self.driver = webdriver.Firefox()
+        self.driver = webdriver.PhantomJS()
+        #self.driver = webdriver.Firefox()
         #i should close this thing
         #driver.close()
         '''
@@ -111,57 +111,102 @@ class JSRender:
             http://thiagomarzagao.com/2013/11/12/webscraping-with-selenium-part-1/
 
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%'''
-    def getAddressPageInfo(self, url,address):
+    def getZipCodePageInfo(self, url):
         self.driver.get(url)
         time.sleep(3)
-        bet_fa = self.driver.find_element_by_id("input-0")
-        bet_fa.clear()
-        #05401
-        bet_fa.send_keys("vermont")
-        
-        print(self.driver.find_element_by_xpath("//input[contains(@id,'input-0')]").get_attribute('value'))
+        allData = self.driver.execute_script("return placeDetailsResponseJspb")
+        roofTopData = allData[2]
+        results = {
+            "2_to_4_roof_top_capacity_distribution":0,
+            "4_to_6_roof_top_capacity_distribution":0,
+            "6_to_8_roof_top_capacity_distribution":0,
+            "8_to_10_roof_top_capacity_distribution":0,
+            "10_to_12_roof_top_capacity_distribution":0,
+            "12_to_14_roof_top_capacity_distribution":0,
+            "14_to_16_roof_top_capacity_distribution":0,
+            "16_to_18_roof_top_capacity_distribution":0,
+            "18_to_20_roof_top_capacity_distribution":0,
+            "20_to_50_roof_top_capacity_distribution":0,
+            "50_to_100_roof_top_capacity_distribution":0,
+            "100_to_150_roof_top_capacity_distribution":0,
+            "150_to_250_roof_top_capacity_distribution":0,
+            "250_to_500_roof_top_capacity_distribution":0,
+            "500_to_1000_roof_top_capacity_distribution":0,
+            "1000_to_1000+_roof_top_capacity_distribution":0
+        }
+        ''''
+        results = {
+            "threshold_viable_sunroof": self.checkExists(roofTopData[0]),
+            "roof_viable_total": self.checkExists(roofTopData[1]),
+            "roof_solar_viable": self.checkExists(roofTopData[2]),
+            "roof_space_total": self.checkExists(roofTopData[3]),
+            "roof_space_median": self.checkExists(roofTopData[4]),
 
-        sectionTag = self.driver.find_element_by_tag_name("section")        
-        inputField = sectionTag.find_element_by_tag_name('md-autocomplete-wrap')
-        inputField.click()
-        inputField.send_keys(Keys.ARROW_LEFT)
-        inputField.send_keys(Keys.ARROW_LEFT)
-        inputField.send_keys(Keys.RETURN)
-        inputField.submit()
-        sectionTag.find_element_by_tag_name("form").submit()
-        
-        time.sleep(1)
-        #asdf.send_keys(Keys.RETURN)
-        #bet_fa.send_keys(Keys.RETURN)
-        #time.sleep(1)
-        ##bet_fa.click()
-        #bet_fa.click()
-        #bet_fa.send_keys(Keys.ARROW_LEFT)
-        #bet_fa.send_keys(Keys.RETURN)
-        #bet_fa.send_keys("keysToSend")
-        #time.sleep(10)
-        #print(self.driver.find_element_by_tag_name('title').text)
-        #print(self.driver.current_url)
+            "roof_total_est_flat_roofs": self.checkExists(roofTopData[5][4]),
+            "roof_total_est_s_facing": self.checkExists(roofTopData[5][1]),
+            "roof_total_est_w_facing": self.checkExists(roofTopData[5][3]),
+            "roof_total_est_e_facing": self.checkExists(roofTopData[5][2]),
+            "roof_total_est_n_facing": self.checkExists(roofTopData[5][0]),
+
+            "roof_capacity_median": self.checkExists(roofTopData[6]),
+
+            "total_yearl_energy_est_flat_roof": self.checkExists(roofTopData[7][4]),
+            "total_yearl_energy_est_flat_roof": self.checkExists(roofTopData[7][1]),
+            "total_yearl_energy_est_flat_roof": self.checkExists(roofTopData[7][3]),
+            "total_yearl_energy_est_flat_roof": self.checkExists(roofTopData[7][2]),
+            "total_yearl_energy_est_flat_roof": self.checkExists(roofTopData[7][0]),
+
+
+            "roof_energy_median": self.checkExists(roofTopData[8]),
+            "potential_co2_saved_all_solar": self.checkExists(roofTopData[9]),
+            "potential_car_taken_off_rode_all_solar": self.checkExists(roofTopData[10]),
+            "potential_tree_planet_all_solar": self.checkExists(roofTopData[11])
+
+        }
         '''
+        '''%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+        / load the last graph and all its data
+        %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%'''
+        index = 0
+        print(len(roofTopData[13]))
+        print(url)
+        for roof in roofTopData[13]:
+            if(index == 15):
+                roof[1] = "1000+"
+            results[str(roof[0]) + "_to_" + str(roof[1]) +"_roof_top_capacity_distribution"] = self.checkExists(roof[2])
+            index = index + 1
+
+        return results
+
+    def checkExists(self,value):
+        if(value):
+            return value
+        else:
+            return 0
+        #if(value == '' or value == None or value == ""):
+        #    return 0
+        #else:
+        #    return value
+
+
+
+
+'''
+        soup = BeautifulSoup(results, "lxml")
+        mainContent = soup.find("div",  {"class":"place-card-content"})
+        print(mainContent)
+        print("\n\n")
+        columns = mainContent.find("div",{"class":"place-metrics-columns"}).findAll("div", {"class":"place-metrics-column"})
+        print(columns[0].get_text())
+        listItems = ["roofs_percent_viable",  "roof_total_number",  "roof_total_space",  "roof_total_capacity", 
+                            "roof_total_electricity", "roof_median_space",  "roof_median_capacity",  "roof_meidan_electricity"]
+        dict = {}
         count = 0
-        while True:
-            count = count + 1
-            if count > 40:
-                print("timed out")
-                print(self.driver.current_url)
-                return 
-            time.sleep(.5)
-            try:
-                self.driver.find_element_by_id("input-0")
-            except:
-                e = sys.exc_info()[0]
-                print("error")
-                print(e)
-                return 
+        for column in columns:
+            for cell in column.findAll("div", {"class": "place-metrics-cell-value"}):
+                dict[listItems[count]] = cell.get_text()
+                count = count + 1
         '''
-
-
-
 '''
 getting a list of address
 do it by zip code   
