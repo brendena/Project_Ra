@@ -1,5 +1,5 @@
 {
-	"seattle":[
+	"Seattle":[
 		{"zipCode": 98101, "url":"https://www.google.com/get/sunroof/data-explorer/place/ChIJdX85S7RqkFQRE9EwXW31xhE/"},
 		{"zipCode": 98102, "url":"https://www.google.com/get/sunroof/data-explorer/place/ChIJg37yp9gUkFQRZOwtUICw8UQ/"},
 		{"zipCode": 98103, "url":"https://www.google.com/get/sunroof/data-explorer/place/ChIJFT-C4gEUkFQRl6YWwUtrexc/"},
@@ -34,7 +34,7 @@
 		{"zipCode": 98198, "url":"https://www.google.com/get/sunroof/data-explorer/place/ChIJzfBFq65bkFQRrZ-ObM8lMLQ/"},
 		{"zipCode": 98199, "url":"https://www.google.com/get/sunroof/data-explorer/place/ChIJSQQA-IsVkFQRG8P_Let0syY/"}
 	],
-	"tampa":[
+	"TampaHouses":[
 		{"zipCode": 33602, "url":"https://www.google.com/get/sunroof/data-explorer/place/ChIJ9bcURmHEwogRwTYEQdnoCpo/"},
 		{"zipCode": 33603, "url":"https://www.google.com/get/sunroof/data-explorer/place/ChIJL0GdQlXBwogRqyAxLXqhEXU/"},
 		{"zipCode": 33604, "url":"https://www.google.com/get/sunroof/data-explorer/place/ChIJqVi3lJbGwogREUga4GzZQPk/"},
@@ -61,7 +61,7 @@
 		{"zipCode": 33647, "url":"https://www.google.com/get/sunroof/data-explorer/place/ChIJI1Kdk1K2wogRi1XPQLIEl5s/"}
 		
 	],
-	"albany":[
+	"Albany":[
 		{"zipCode": 12202, "url":"https://www.google.com/get/sunroof/data-explorer/place/ChIJy8Uq8w4K3okR5tZFi9I0IdQ/"},
 		{"zipCode": 12203, "url":"https://www.google.com/get/sunroof/data-explorer/place/ChIJfX8FbjAL3okRXAnyqyPamqw/"},
 		{"zipCode": 12204, "url":"https://www.google.com/get/sunroof/data-explorer/place/ChIJcedSdEYJ3okRf4ngp7KuCPE/"},
@@ -73,7 +73,7 @@
 		{"zipCode": 12210, "url":"https://www.google.com/get/sunroof/data-explorer/place/ChIJ66LvES4K3okRMg3fkC8PcAc/"},
 		{"zipCode": 12211, "url":"https://www.google.com/get/sunroof/data-explorer/place/ChIJUR_8OFEJ3okRuibFDYMiBVk/"}
 	],
-	"new york city":[
+	"New_York":[
 		{"zipCode": 10001, "url":"https://www.google.com/get/sunroof/data-explorer/place/ChIJnQClza9ZwokRQ37NEa49KoQ/"},
 		{"zipCode": 10002, "url":"https://www.google.com/get/sunroof/data-explorer/place/ChIJm5NfgIBZwokR6jLqucW0ipg/"},
 		{"zipCode": 10003, "url":"https://www.google.com/get/sunroof/data-explorer/place/ChIJdzlESZlZwokRGa_e4LjKxUI/"},
