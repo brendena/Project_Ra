@@ -1,8 +1,11 @@
 {
  "listFeridaFiles":[
-	"Albany",
 	"New_York",
-	"TampaHouses",
-	"Seattle"
+	"FL_Tampa",
+	"Seattle",
+	"NY_Albany",
+	"OR_Albany",
+	"GA_Albany",
+	"CA_Albany"
 	]
 }

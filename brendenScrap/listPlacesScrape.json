@@ -34,7 +34,7 @@
 		{"zipCode": 98198, "url":"https://www.google.com/get/sunroof/data-explorer/place/ChIJzfBFq65bkFQRrZ-ObM8lMLQ/"},
 		{"zipCode": 98199, "url":"https://www.google.com/get/sunroof/data-explorer/place/ChIJSQQA-IsVkFQRG8P_Let0syY/"}
 	],
-	"TampaHouses":[
+	"FL_Tampa":[
 		{"zipCode": 33602, "url":"https://www.google.com/get/sunroof/data-explorer/place/ChIJ9bcURmHEwogRwTYEQdnoCpo/"},
 		{"zipCode": 33603, "url":"https://www.google.com/get/sunroof/data-explorer/place/ChIJL0GdQlXBwogRqyAxLXqhEXU/"},
 		{"zipCode": 33604, "url":"https://www.google.com/get/sunroof/data-explorer/place/ChIJqVi3lJbGwogREUga4GzZQPk/"},
@@ -61,8 +61,8 @@
 		{"zipCode": 33647, "url":"https://www.google.com/get/sunroof/data-explorer/place/ChIJI1Kdk1K2wogRi1XPQLIEl5s/"}
 		
 	],
-	"Albany":[
-		{"zipCode": 12202, "url":"https://www.google.com/get/sunroof/data-explorer/place/ChIJy8Uq8w4K3okR5tZFi9I0IdQ/"},
+	"NY_Albany":[
+		{"zipCode": 12202, "url":"https://www.google.com/get/sunroof/data-explorer/place/ChIJx1CYywhCwFQRDaBJjMvMcJw/"},
 		{"zipCode": 12203, "url":"https://www.google.com/get/sunroof/data-explorer/place/ChIJfX8FbjAL3okRXAnyqyPamqw/"},
 		{"zipCode": 12204, "url":"https://www.google.com/get/sunroof/data-explorer/place/ChIJcedSdEYJ3okRf4ngp7KuCPE/"},
 		{"zipCode": 12205, "url":"https://www.google.com/get/sunroof/data-explorer/place/ChIJcbrP26IM3okRne1UN03sNOo/"},
@@ -72,6 +72,20 @@
 		{"zipCode": 12209, "url":"https://www.google.com/get/sunroof/data-explorer/place/ChIJ2z5EDXsK3okRv9XvOANGFIQ/"},
 		{"zipCode": 12210, "url":"https://www.google.com/get/sunroof/data-explorer/place/ChIJ66LvES4K3okRMg3fkC8PcAc/"},
 		{"zipCode": 12211, "url":"https://www.google.com/get/sunroof/data-explorer/place/ChIJUR_8OFEJ3okRuibFDYMiBVk/"}
+	],
+	"OR_Albany":[
+		{"zipCode": 97389, "url":"https://www.google.com/get/sunroof/data-explorer/place/ChIJUR_8OFEJ3okRuibFDYMiBVk/"},
+		{"zipCode": 97321, "url":"https://www.google.com/get/sunroof/data-explorer/place/ChIJpwauwIUTwFQRcBp2vDtlIT8/"},
+		{"zipCode": 97322, "url":"https://www.google.com/get/sunroof/data-explorer/place/ChIJ083NMBBtwFQRAq_d4yfT8es/"}
+	],
+	"GA_Albany":[
+		{"zipCode": 31705, "url":"https://www.google.com/get/sunroof/data-explorer/place/ChIJUzrZQH918ogRvNCqVK4aZzs/"},
+		{"zipCode": 31707, "url":"https://www.google.com/get/sunroof/data-explorer/place/ChIJ8eUJyj1_8ogRDqxHMJr8COA/"},
+		{"zipCode": 31701, "url":"https://www.google.com/get/sunroof/data-explorer/place/ChIJKYYvavJw8ogRM0p355R5NXg/"},
+		{"zipCode": 31721, "url":"https://www.google.com/get/sunroof/data-explorer/place/ChIJ8VuZ7DR-7YgRJAGrghWAW-Y/"}
+	],
+	"CA_Albany":[
+		{"zipCode": 94706, "url":"https://www.google.com/get/sunroof/data-explorer/place/ChIJa-vkkzN5hYARI0dPB36iU9g/"},
 	],
 	"New_York":[
 		{"zipCode": 10001, "url":"https://www.google.com/get/sunroof/data-explorer/place/ChIJnQClza9ZwokRQ37NEa49KoQ/"},
@@ -111,5 +125,6 @@
 		{"zipCode": 10040, "url":"https://www.google.com/get/sunroof/data-explorer/place/ChIJT281AQP0wokRVg-u0j8PJ_I/"},
 		{"zipCode": 10065, "url":"https://www.google.com/get/sunroof/data-explorer/place/ChIJweLRGPFYwokRlliBqvqpqcs/"},
 		{"zipCode": 10075, "url":"https://www.google.com/get/sunroof/data-explorer/place/ChIJ3Y2_-75YwokRbDP_sDQNfzw/"}
-	]
+	],
+	
 }
