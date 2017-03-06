@@ -1,4 +1,5 @@
 from selenium import webdriver 
+import selenium 
 from selenium.webdriver.common.by import By 
 from selenium.webdriver.support.ui import WebDriverWait 
 from selenium.webdriver.support import expected_conditions as EC
@@ -37,14 +38,7 @@ class JSRender:
         print(driver.find_element_by_id("content").text) 
 
         '''
-        '''
-        try:    
-            element = WebDriverWait(driver, 10).until(                       
-            EC.presence_of_element_located((By.ID, "loadedButton"))) 
-        finally:    
-            print(driver.find_element_by_id("content").text)    
-            driver.close()
-        '''
+
 
     '''%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
         get the info from a singler page on sunroof.
@@ -64,7 +58,23 @@ class JSRender:
         #   wait 3 seconds to allow the page 
         #   to render and gather its content
         #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-        time.sleep(3)
+        count = 0
+        sleepTime = .2
+        while(True):
+            if(count < 20):
+                text = self.driver.find_element(By.XPATH, '//li[@class="_Vsh"]//div[@class="_Ysh"]//span').text
+                if(text != ""):
+                    print("all good")
+                    break
+
+                time.sleep(sleepTime)
+                count = count + 1
+                
+            else:
+                print("there was a error")
+                break
+
+
         results = self.driver.page_source
         soup = BeautifulSoup(results, "lxml")
         #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -81,6 +91,7 @@ class JSRender:
         #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
         #   if coundn't find anything return 0
         #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        print(returnInfo)
         if(returnInfo["hoursSun"] == ''):
             return {
                 "hoursSun": 0,

@@ -65,17 +65,17 @@ class ScrappingClassAddress:
             
             #if file exists - add
             if(Path(baseFile + "Updated.csv").is_file()):
-                csvFile = open(baseFile+ "Updated.csv",'w')
-                output = csv.writer(csvFile)
-                print(sum(1 for row in csv.reader(baseFile+ "Updated.csv")))
-
+                tmp = pd.read_csv(baseFile + "Updated.csv")
+                startingPoint = tmp["id"].count()
+                csvFile = open(baseFile+ "Updated.csv",'a+')
+                self.output = csv.writer(csvFile)
+                
             #if file doesn't - start fresh
             else:
-                csvFile = open(baseFile+ "Updated.csv",'w')
-                output = csv.writer(csvFile)
-                output.writerow(["id","hoursSun","sqFtRoof"])
+                csvFile = open(baseFile+ "Updated.csv",'w+')
+                self.output = csv.writer(csvFile)
+                self.output.writerow(["id","hoursSun","sqFtRoof"])
                 startingPoint = 0
-
 
 
             
@@ -87,15 +87,15 @@ class ScrappingClassAddress:
 
             count = df["id"].count()
             
-            for i in range(count): #range(0,200): 
+            for i in range(startingPoint,count): #range(0,200): 
                 print(i," / ", count)
-                self.loopLogic(output,df.iloc[i],zipCodes)
+                self.loopLogic(df.iloc[i],zipCodes)
                                     #there something wrong with the iloc
                                     #it doesn't look right when you take the lat and longtidue out
                 
 
 
-    def loopLogic(self,output,datapoint,zipCodes):
+    def loopLogic(self,datapoint,zipCodes):
         lat = datapoint['latitude']
         lng = datapoint['longitude']
         ID = datapoint['id']
@@ -106,20 +106,19 @@ class ScrappingClassAddress:
         if(offlineCheck != 0 ):
             address = self.googleGetZipCode(lat,lng,zipCodes)
             if(address != 0):
-                self.getZipCodeData(output,address,ID)
+                self.getZipCodeData(address,ID)
             else:
-                output.writerow([ID, 0, 0])
+                self.output.writerow([ID, 0, 0])
         else:
-            output.writerow([ID, 0, 0])
+            self.output.writerow([ID, 0, 0])
         
         
 
-    def getZipCodeData(self,output,address,ID):
+    def getZipCodeData(self,address,ID):
         url = self.searchURL(address)
         data = self.JSRender.getAddressPageInfo(url)
         data["id"] = ID
-        #print(data.values())
-        output.writerow([data["id"], data["hoursSun"], data["sqFtRoof"]])
+        self.output.writerow([data["id"], data["hoursSun"], data["sqFtRoof"]])
         
         
     def googleGetZipCode(self,latitude, longitude,zipCodes):

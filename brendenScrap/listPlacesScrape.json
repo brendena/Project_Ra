@@ -85,7 +85,7 @@
 		{"zipCode": 31721, "url":"https://www.google.com/get/sunroof/data-explorer/place/ChIJ8VuZ7DR-7YgRJAGrghWAW-Y/"}
 	],
 	"CA_Albany":[
-		{"zipCode": 94706, "url":"https://www.google.com/get/sunroof/data-explorer/place/ChIJa-vkkzN5hYARI0dPB36iU9g/"},
+		{"zipCode": 94706, "url":"https://www.google.com/get/sunroof/data-explorer/place/ChIJa-vkkzN5hYARI0dPB36iU9g/"}
 	],
 	"New_York":[
 		{"zipCode": 10001, "url":"https://www.google.com/get/sunroof/data-explorer/place/ChIJnQClza9ZwokRQ37NEa49KoQ/"},
@@ -125,6 +125,6 @@
 		{"zipCode": 10040, "url":"https://www.google.com/get/sunroof/data-explorer/place/ChIJT281AQP0wokRVg-u0j8PJ_I/"},
 		{"zipCode": 10065, "url":"https://www.google.com/get/sunroof/data-explorer/place/ChIJweLRGPFYwokRlliBqvqpqcs/"},
 		{"zipCode": 10075, "url":"https://www.google.com/get/sunroof/data-explorer/place/ChIJ3Y2_-75YwokRbDP_sDQNfzw/"}
-	],
+	]
 	
 }
