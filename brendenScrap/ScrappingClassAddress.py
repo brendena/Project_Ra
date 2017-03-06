@@ -62,23 +62,22 @@ class ScrappingClassAddress:
             print("./" + self.dataFolder + "/" + fileName)                      #speeds up things a lot and uses less memory
             baseFile = "./" + self.dataFolder + "/" + fileName
             df = pd.read_csv(baseFile + ".csv", usecols=['id','latitude','longitude'])
+
             
             #if file exists - add
             if(Path(baseFile + "Updated.csv").is_file()):
                 tmp = pd.read_csv(baseFile + "Updated.csv")
                 startingPoint = tmp["id"].count()
-                csvFile = open(baseFile+ "Updated.csv",'a+')
-                self.output = csv.writer(csvFile)
+                self.csvFile = open(baseFile+ "Updated.csv",'a')
+                self.output = csv.writer(self.csvFile)
                 
             #if file doesn't - start fresh
             else:
-                csvFile = open(baseFile+ "Updated.csv",'w+')
-                self.output = csv.writer(csvFile)
+                self.csvFile = open(baseFile+ "Updated.csv",'w+')
+                self.output = csv.writer(self.csvFile)
                 self.output.writerow(["id","hoursSun","sqFtRoof"])
                 startingPoint = 0
 
-
-            
             zipCodes = []
             for i in range(0,len(self.ListPlacesCanScrape[fileName])):
                 zipCodes.append(int(self.ListPlacesCanScrape[fileName][i]["zipCode"]))
@@ -99,19 +98,21 @@ class ScrappingClassAddress:
         lat = datapoint['latitude']
         lng = datapoint['longitude']
         ID = datapoint['id']
-
         
         offlineCheck = self.offlineZipCodeCheck(lat,lng,zipCodes)
         
         if(offlineCheck != 0 ):
+            
             address = self.googleGetZipCode(lat,lng,zipCodes)
+
             if(address != 0):
                 self.getZipCodeData(address,ID)
             else:
                 self.output.writerow([ID, 0, 0])
         else:
             self.output.writerow([ID, 0, 0])
-        
+
+        self.csvFile.flush()
         
 
     def getZipCodeData(self,address,ID):
@@ -119,11 +120,11 @@ class ScrappingClassAddress:
         data = self.JSRender.getAddressPageInfo(url)
         data["id"] = ID
         self.output.writerow([data["id"], data["hoursSun"], data["sqFtRoof"]])
-        
+
         
     def googleGetZipCode(self,latitude, longitude,zipCodes):
         count = 0
-        if(self.GoogleTimeLog - time.time() < .5):
+        if(time.time() - self.GoogleTimeLog   < .5):
             time.sleep(1)
         self.GoogleTimeLog = time.time()
         while(True):

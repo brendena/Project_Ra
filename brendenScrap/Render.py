@@ -64,7 +64,6 @@ class JSRender:
             if(count < 20):
                 text = self.driver.find_element(By.XPATH, '//li[@class="_Vsh"]//div[@class="_Ysh"]//span').text
                 if(text != ""):
-                    print("all good")
                     break
 
                 time.sleep(sleepTime)
@@ -91,11 +90,10 @@ class JSRender:
         #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
         #   if coundn't find anything return 0
         #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-        print(returnInfo)
         if(returnInfo["hoursSun"] == ''):
             return {
-                "hoursSun": 0,
-                "sqFtRoof": 0 
+                "hoursSun": "0",
+                "sqFtRoof": "0" 
             }
         else:
             return returnInfo
