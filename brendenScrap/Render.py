@@ -59,7 +59,7 @@ class JSRender:
         #   to render and gather its content
         #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
         count = 0
-        sleepTime = .2
+        sleepTime = 1
         while(True):
             if(count < 20):
                 text = self.driver.find_element(By.XPATH, '//li[@class="_Vsh"]//div[@class="_Ysh"]//span').text

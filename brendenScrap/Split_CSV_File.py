@@ -1,4 +1,5 @@
 import pandas as pd
+
 data = pd.read_csv( "./ferida/Albany.csv")
 
 
@@ -14,13 +15,12 @@ data.groupby(["state"]).get_group("OR").to_csv("OR_Albany.csv")
 data.groupby(["state"]).get_group("CA").to_csv("CA_Albany.csv")
 
 
-data = pd.read_csv( "./ferida/TampaHouses.csv", usecols=['state'])
-
+data = pd.read_csv( "./ferida/TampaHouses.csv")
 
 print("\n\n tamps houses")
 print(data['state'].value_counts())
 
 
-data.groupby(["state"]).get_group("FL").to_csv("FL_Tamba.csv")
+data.groupby(["state"]).get_group("FL").to_csv("FL_Tampa.csv")
 
             
