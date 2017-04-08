@@ -1,0 +1,210 @@
+,ethnicity,marital_status,owner_type,gender,use,age,bld_val,year_built,roof_age
+0,Western European,Married,Unknown or not provided,Female,Single Family Residence,73.0,345794,1949,2.0
+1,Western European,Married,Unknown or not provided,Male,Condominium,60.0,472623,2002,13.0
+2,Western European,Married,Husband and wife,Male,Condominium,70.0,183914,2005,11.64179104477612
+3,Western European,Unknown,Husband and wife,Male,Single Family Residence,48.0,719065,1958,24.0
+4,African American,Married,Single Woman,Female,Single Family Residence,75.0,33533,1962,2.0
+5,African American,Married,Single Woman,Female,Single Family Residence,75.0,33533,1962,2.0
+6,Hispanic,Unknown,Unknown or not provided,Female,Single Family Residence,77.0,87649,1998,17.0
+7,African American,Married,Single Woman,Female,Single Family Residence,75.0,33533,1962,2.0
+8,Western European,Married,Husband and wife,Male,Single Family Residence,72.0,1866527,2012,3.0
+9,Western European,Unknown,Husband and wife,Male,Single Family Residence,48.0,719065,1958,24.0
+10,Western European,Unknown,Husband and wife,Male,Single Family Residence,48.0,719065,1958,24.0
+11,Western European,Unknown,Husband and wife,Male,Single Family Residence,48.0,719065,1958,24.0
+12,Western European,Married,Husband and wife,Female,Single Family Residence,55.0,1981804,2010,5.0
+13,Western European,Unknown,Husband and wife,Male,Single Family Residence,48.0,719065,1958,24.0
+14,Western European,Unknown,Husband and wife,Male,Single Family Residence,48.0,719065,1958,24.0
+15,Western European,Married,Unknown or not provided,Female,Single Family Residence,76.0,682154,2012,3.0
+16,Western European,Unknown,Husband and wife,Male,Single Family Residence,48.0,719065,1958,24.0
+17,Western European,Married,Single / Unmarried,Male,Single Family Residence,57.0,4416763,2005,11.0
+18,Western European,Married,Unknown or not provided,Female,Single Family Residence,72.0,799839,1922,16.0
+19,Western European,Married,Unknown or not provided,Female,Single Family Residence,72.0,799839,1922,16.0
+20,Unknown,Unknown,Life Estate,Unknown,Single Family Residence,56.357894736842105,376388,1950,0.0
+21,African American,Married,Unknown or not provided,Female,Condominium,35.0,32953,1974,11.64179104477612
+22,Western European,Married,Husband and wife,Male,Single Family Residence,88.0,501249,2001,14.0
+23,Western European,Married,Husband and wife,Female,Single Family Residence,77.0,381199,1992,16.0
+24,Western European,Married,Unknown or not provided,Female,Single Family Residence,41.0,148572,1974,15.0
+25,Hispanic,Married,Unknown or not provided,Female,Single Family Residence,63.0,162354,1983,23.0
+26,Hispanic,Married,Unknown or not provided,Female,Single Family Residence,63.0,162354,1983,23.0
+27,Hispanic,Married,Unmarried Man,Female,Single Family Residence,71.0,144086,1973,10.0
+28,African American,Married,Husband and wife,Female,Single Family Residence,59.0,237733,1967,16.0
+29,Western European,Married,Unknown or not provided,Female,Single Family Residence,41.0,148572,1974,15.0
+30,Hispanic,Married,Unknown or not provided,Female,Single Family Residence,63.0,162354,1983,23.0
+31,Hispanic,Married,Unmarried Man,Female,Single Family Residence,71.0,144086,1973,10.0
+32,Western European,Married,Unknown or not provided,Female,Single Family Residence,41.0,148572,1974,15.0
+33,African American,Married,Husband and wife,Female,Single Family Residence,59.0,237733,1967,16.0
+34,Hispanic,Separated,Single / Unmarried,Female,Single Family Residence,63.0,79437,1986,17.0
+35,Hispanic,Separated,Single / Unmarried,Female,Single Family Residence,63.0,79437,1986,17.0
+36,African American,Married,Husband and wife,Female,Single Family Residence,59.0,237733,1967,16.0
+37,Western European,Married,Unknown or not provided,Female,Single Family Residence,41.0,148572,1974,15.0
+38,Hispanic,Married,Unmarried Man,Female,Single Family Residence,71.0,144086,1973,10.0
+39,Western European,Married,Husband and wife,Female,Single Family Residence,53.0,592941,1992,23.0
+40,Western European,Married,Husband and wife,Female,Single Family Residence,50.0,376018,2006,9.0
+41,Western European,Married,Husband and wife,Female,Single Family Residence,56.0,1231604,2006,9.0
+42,Western European,Married,Unknown or not provided,Female,Condominium,68.0,1032281,2006,11.64179104477612
+43,Western European,Married,Unknown or not provided,Female,Condominium,68.0,1032281,2006,11.64179104477612
+44,Western European,Married,Unknown or not provided,Male,Condominium,66.0,130192,1975,11.64179104477612
+45,Unknown,Unknown,Unknown or not provided,Unknown,Cooperative,56.357894736842105,29887,1959,11.64179104477612
+46,Western European,Married,Unknown or not provided,Female,Single Family Residence,64.0,142389,1977,16.0
+47,Western European,Married,Unknown or not provided,Male,Single Family Residence,59.0,171233,1962,7.0
+48,African American,Married,Husband and wife,Female,Single Family Residence,59.0,237733,1967,16.0
+49,Hispanic,Married,Unmarried Man,Female,Single Family Residence,71.0,144086,1973,10.0
+50,Jewish,Single,Husband and wife,Female,Single Family Residence,25.0,647119,2001,15.0
+51,Western European,Married,Unmarried Man,Female,Single Family Residence,49.0,143854,1968,16.0
+52,Jewish,Single,Husband and wife,Female,Single Family Residence,25.0,647119,2001,15.0
+53,Western European,Married,Trustee,Female,Single Family Residence,64.0,606918,1992,5.0
+54,Western European,Married,Trustee,Female,Single Family Residence,64.0,606918,1992,5.0
+55,Western European,Married,Single Woman,Male,Single Family Residence,30.0,219225,2013,2.0
+56,Western European,Married,Single Woman,Male,Single Family Residence,30.0,219225,2013,2.0
+57,Hispanic,Married,Unknown or not provided,Female,Single Family Residence,63.0,162354,1983,23.0
+58,Hispanic,Married,Unknown or not provided,Female,Single Family Residence,63.0,162354,1983,23.0
+59,Hispanic,Married,Unknown or not provided,Female,Single Family Residence,63.0,162354,1983,23.0
+60,Hispanic,Married,Unknown or not provided,Female,Single Family Residence,63.0,162354,1983,23.0
+61,Hispanic,Married,Unknown or not provided,Female,Single Family Residence,63.0,162354,1983,23.0
+62,Western European,Married,Unknown or not provided,Female,Single Family Residence,76.0,170154,1958,9.0
+63,Jewish,Married,Husband and wife,Female,Single Family Residence,89.0,497835,1970,5.0
+64,Middle Eastern,Married,Unknown or not provided,Male,Condominium,47.0,82929,1983,16.0
+65,Western European,Married,Husband and wife,Male,Single Family Residence,54.0,202676,1979,11.0
+66,Western European,Married,Unknown or not provided,Female,Single Family Residence,59.0,524341,1994,17.0
+67,Western European,Married,Husband and wife,Female,Single Family Residence,60.0,265329,1986,8.0
+68,Jewish,Married,Unknown or not provided,Female,Single Family Residence,87.0,310238,1977,11.0
+69,Western European,Married,Husband and wife,Male,Single Family Residence,54.0,202676,1979,11.0
+70,Eastern European,Separated,Husband and wife,Male,Single Family Residence,48.0,1120258,2005,10.0
+71,Jewish,Married,Unknown or not provided,Female,Single Family Residence,87.0,310238,1977,11.0
+72,Jewish,Married,Husband and wife,Female,Single Family Residence,89.0,497835,1970,5.0
+73,Middle Eastern,Married,Unknown or not provided,Male,Condominium,47.0,82929,1983,16.0
+74,Eastern European,Separated,Husband and wife,Male,Single Family Residence,48.0,1120258,2005,10.0
+75,Western European,Married,Husband and wife,Female,Single Family Residence,60.0,265329,1986,8.0
+76,Unknown,Unknown,Unknown or not provided,Unknown,Single Family Residence,56.357894736842105,107289,2003,13.0
+77,Western European,Single,Unknown or not provided,Female,Single Family Residence,75.0,205748,2001,14.0
+78,Hispanic,Unknown,Unknown or not provided,Female,Single Family Residence,56.357894736842105,112915,1963,16.0
+79,Hispanic,Unknown,Unknown or not provided,Female,Single Family Residence,56.357894736842105,112915,1963,16.0
+80,Unknown,Unknown,Unknown or not provided,Unknown,Single Family Residence,56.357894736842105,107289,2003,13.0
+81,Unknown,Unknown,Unknown or not provided,Unknown,Single Family Residence,56.357894736842105,107289,2003,13.0
+82,Unknown,Unknown,Unknown or not provided,Unknown,Single Family Residence,56.357894736842105,107289,2003,13.0
+83,Unknown,Unknown,Unknown or not provided,Unknown,Single Family Residence,56.357894736842105,107289,2003,13.0
+84,Unknown,Unknown,Unknown or not provided,Unknown,Single Family Residence,56.357894736842105,107289,2003,13.0
+85,Western European,Single,Husband and wife,Male,Single Family Residence,63.0,506768,1996,19.0
+86,Jewish,Married,Husband and wife,Female,Single Family Residence,54.0,391375,2004,11.0
+87,East Asian,Married,Married Woman,Female,Single Family Residence,47.0,169224,2007,8.0
+88,Western European,Married,Husband and wife,Male,Single Family Residence,75.0,243820,1999,16.0
+89,Other,Single,Married Woman,Female,Single Family Residence,51.0,439082,2005,10.0
+90,Unknown,Unknown,Unknown or not provided,Unknown,Single Family Residence,56.357894736842105,107289,2003,13.0
+91,Unknown,Unknown,Unknown or not provided,Unknown,Single Family Residence,56.357894736842105,107289,2003,13.0
+92,East Asian,Married,Husband and wife,Female,Single Family Residence,53.0,219399,1999,16.0
+93,Southeast Asian,Married,Husband and wife,Male,Single Family Residence,54.0,244195,1999,16.0
+94,Western European,Single,Husband and wife,Male,Single Family Residence,63.0,506768,1996,19.0
+95,African American,Single,Husband and wife,Female,Single Family Residence,52.0,249843,2002,13.0
+96,Western European,Married,Husband and wife,Female,Single Family Residence,58.0,812942,2001,4.0
+97,Unknown,Unknown,Unknown or not provided,Unknown,Single Family Residence,56.357894736842105,107289,2003,13.0
+98,East Asian,Married,Husband and wife,Female,Single Family Residence,53.0,219399,1999,16.0
+99,Southeast Asian,Married,Husband and wife,Male,Single Family Residence,54.0,244195,1999,16.0
+100,Western European,Married,Husband and wife,Female,Single Family Residence,58.0,812942,2001,4.0
+101,Unknown,Unknown,Unknown or not provided,Unknown,Single Family Residence,56.357894736842105,107289,2003,13.0
+102,Unknown,Unknown,Unknown or not provided,Unknown,Single Family Residence,56.357894736842105,107289,2003,13.0
+103,African American,Single,Husband and wife,Female,Single Family Residence,52.0,249843,2002,13.0
+104,Unknown,Unknown,Unknown or not provided,Unknown,Single Family Residence,56.357894736842105,107289,2003,13.0
+105,Southeast Asian,Single,Unknown or not provided,Female,Single Family Residence,39.0,314701,2000,0.0
+106,Southeast Asian,Single,Unknown or not provided,Female,Single Family Residence,39.0,314701,2000,0.0
+107,Western European,Married,Single Woman,Female,Single Family Residence,73.0,221648,1993,22.0
+108,Eastern European,Married,Unknown or not provided,Female,Condominium,79.0,157356,2002,13.0
+109,Western European,Married,Husband and wife,Female,Single Family Residence,72.0,177873,1989,12.0
+110,Jewish,Separated,Unknown or not provided,Female,Single Family Residence,67.0,183718,2003,12.0
+111,Hispanic,Married,Husband and wife,Female,Single Family Residence,56.0,113850,2001,14.0
+112,Middle Eastern,Married,Unknown or not provided,Female,Single Family Residence,77.0,154916,1984,16.0
+113,Unknown,Unknown,Trustee,Unknown,Condominium,56.357894736842105,388164,1984,11.64179104477612
+114,Western European,Married,Unknown or not provided,Female,Single Family Residence,62.0,147573,1980,16.0
+115,Western European,Single,Husband and wife,Male,Single Family Residence,48.0,377735,1965,10.0
+116,Western European,Married,Unknown or not provided,Female,Single Family Residence,62.0,147573,1980,16.0
+117,Western European,Married,Unknown or not provided,Female,Single Family Residence,62.0,147573,1980,16.0
+118,Western European,Married,Unknown or not provided,Female,Single Family Residence,62.0,147573,1980,16.0
+119,Western European,Married,Husband and wife,Female,Single Family Residence,51.0,389339,2002,13.0
+120,Western European,Married,Single / Unmarried,Female,Single Family Residence,47.0,191952,2001,14.0
+121,Western European,Married,Unknown or not provided,Female,Condominium,60.0,222918,2004,11.0
+122,Western European,Married,Unknown or not provided,Female,Condominium,60.0,222918,2004,11.0
+123,Western European,Married,Unknown or not provided,Female,Condominium,60.0,222918,2004,11.0
+124,Western European,Married,Husband and wife,Female,Single Family Residence,51.0,389339,2002,13.0
+125,Western European,Married,Unknown or not provided,Female,Condominium,60.0,222918,2004,11.0
+126,Western European,Married,Single / Unmarried,Female,Single Family Residence,47.0,191952,2001,14.0
+127,Southeast Asian,Married,Single Man,Male,Single Family Residence,50.0,659751,2006,9.0
+128,Western European,Married,Unknown or not provided,Female,Condominium,60.0,222918,2004,11.0
+129,Western European,Married,Unknown or not provided,Female,Condominium,60.0,222918,2004,11.0
+130,Western European,Married,Unknown or not provided,Female,Condominium,60.0,222918,2004,11.0
+131,Western European,Married,Unknown or not provided,Female,Condominium,60.0,222918,2004,11.0
+132,Western European,Married,Unknown or not provided,Female,Condominium,60.0,222918,2004,11.0
+133,Western European,Married,Unknown or not provided,Female,Condominium,60.0,222918,2004,11.0
+134,Western European,Married,Unknown or not provided,Female,Condominium,60.0,222918,2004,11.0
+135,Western European,Married,Unknown or not provided,Female,Condominium,60.0,222918,2004,11.0
+136,Western European,Unknown,Unknown or not provided,Male,Single Family Residence,56.357894736842105,218963,1966,4.0
+137,Western European,Single,Unknown or not provided,Male,Single Family Residence,67.0,357394,1990,1.0
+138,Mediterranean,Married,Husband and wife,Male,Single Family Residence,57.0,764886,1997,18.0
+139,Western European,Single,Unknown or not provided,Male,Single Family Residence,67.0,357394,1990,1.0
+140,Western European,Single,Unknown or not provided,Male,Single Family Residence,67.0,357394,1990,1.0
+141,Western European,Single,Unknown or not provided,Male,Single Family Residence,67.0,357394,1990,1.0
+142,Western European,Single,Unknown or not provided,Male,Single Family Residence,67.0,357394,1990,1.0
+143,Mediterranean,Married,Unknown or not provided,Female,Single Family Residence,50.0,611667,2007,8.0
+144,Western European,Single,Unknown or not provided,Male,Single Family Residence,67.0,357394,1990,1.0
+145,Western European,Single,Unknown or not provided,Male,Single Family Residence,67.0,357394,1990,1.0
+146,Western European,Married,Husband and wife,Female,Single Family Residence,52.0,1699999,1924,1.0
+147,Western European,Single,Unknown or not provided,Male,Single Family Residence,67.0,357394,1990,1.0
+148,Western European,Married,Husband and wife,Female,Single Family Residence,56.0,938984,1981,10.0
+149,Western European,Single,Unknown or not provided,Male,Single Family Residence,67.0,357394,1990,1.0
+150,Unknown,Unknown,Trustee,Unknown,Single Family Residence,56.357894736842105,1201704,1974,23.0
+151,Western European,Single,Unmarried Woman,Unknown,Single Family Residence,40.0,287336,1924,23.0
+152,Western European,Single,Unknown or not provided,Male,Single Family Residence,67.0,357394,1990,1.0
+153,Western European,Single,Unknown or not provided,Male,Single Family Residence,67.0,357394,1990,1.0
+154,Mediterranean,Married,Unknown or not provided,Female,Single Family Residence,50.0,611667,2007,8.0
+155,Western European,Married,Husband and wife,Female,Single Family Residence,56.0,938984,1981,10.0
+156,Mediterranean,Married,Husband and wife,Male,Single Family Residence,52.0,1137056,1939,7.0
+157,Western European,Married,Husband and wife,Female,Single Family Residence,50.0,748479,1962,1.0
+158,Western European,Married,Husband and wife,Female,Single Family Residence,52.0,1699999,1924,1.0
+159,Western European,Single,Unknown or not provided,Male,Single Family Residence,67.0,357394,1990,1.0
+160,Western European,Married,Husband and wife,Female,Single Family Residence,50.0,748479,1962,1.0
+161,Mediterranean,Married,Husband and wife,Male,Single Family Residence,52.0,1137056,1939,7.0
+162,Mediterranean,Married,Husband and wife,Male,Single Family Residence,57.0,764886,1997,18.0
+163,Western European,Single,Single Woman,Female,Single Family Residence,75.0,210703,1940,24.0
+164,Western European,Single,Unknown or not provided,Female,Single Family Residence,76.0,633037,1960,3.0
+165,Other,Unknown,Unknown or not provided,Female,Single Family Residence,26.0,167824,1986,9.0
+166,Western European,Single,Husband and wife,Male,Single Family Residence,48.0,377735,1965,10.0
+167,Other,Unknown,Unknown or not provided,Female,Single Family Residence,26.0,167824,1986,9.0
+168,Other,Unknown,Unknown or not provided,Female,Single Family Residence,26.0,167824,1986,9.0
+169,Western European,Single,Husband and wife,Male,Single Family Residence,48.0,377735,1965,10.0
+170,Other,Unknown,Unknown or not provided,Female,Single Family Residence,26.0,167824,1986,9.0
+171,Western European,Single,Husband and wife,Male,Single Family Residence,48.0,377735,1965,10.0
+172,Other,Unknown,Unknown or not provided,Female,Single Family Residence,26.0,167824,1986,9.0
+173,Western European,Single,Husband and wife,Male,Single Family Residence,48.0,377735,1965,10.0
+174,Other,Unknown,Unknown or not provided,Female,Single Family Residence,26.0,167824,1986,9.0
+175,Other,Unknown,Unknown or not provided,Female,Single Family Residence,26.0,167824,1986,9.0
+176,Western European,Single,Husband and wife,Male,Single Family Residence,48.0,377735,1965,10.0
+177,Other,Unknown,Unknown or not provided,Female,Single Family Residence,26.0,167824,1986,9.0
+178,Other,Unknown,Unknown or not provided,Female,Single Family Residence,26.0,167824,1986,9.0
+179,Western European,Single,Husband and wife,Male,Single Family Residence,48.0,377735,1965,10.0
+180,Other,Unknown,Unknown or not provided,Female,Single Family Residence,26.0,167824,1986,9.0
+181,Western European,Single,Husband and wife,Male,Single Family Residence,48.0,377735,1965,10.0
+182,Western European,Single,Husband and wife,Male,Single Family Residence,48.0,377735,1965,10.0
+183,Other,Unknown,Unknown or not provided,Female,Single Family Residence,26.0,167824,1986,9.0
+184,Western European,Single,Husband and wife,Male,Single Family Residence,48.0,377735,1965,10.0
+185,Other,Unknown,Unknown or not provided,Female,Single Family Residence,26.0,167824,1986,9.0
+186,Western European,Single,Husband and wife,Male,Single Family Residence,48.0,377735,1965,10.0
+187,Western European,Married,Unknown or not provided,Female,Single Family Residence,75.0,150409,1973,16.0
+188,Western European,Single,Husband and wife,Male,Single Family Residence,48.0,377735,1965,10.0
+189,Western European,Unknown,Husband and wife,Male,Single Family Residence,48.0,719065,1958,24.0
+190,Western European,Unknown,Husband and wife,Male,Single Family Residence,48.0,719065,1958,24.0
+191,Western European,Married,Unknown or not provided,Female,Single Family Residence,76.0,682154,2012,3.0
+192,Western European,Married,Husband and wife,Female,Single Family Residence,55.0,771845,1917,20.0
+193,Hispanic,Separated,Husband and wife,Female,Single Family Residence,46.0,737847,1995,13.0
+194,Western European,Married,Husband and wife,Female,Single Family Residence,55.0,771845,1917,20.0
+195,Western European,Unknown,Husband and wife,Male,Single Family Residence,48.0,719065,1958,24.0
+196,Western European,Married,Single / Unmarried,Male,Single Family Residence,57.0,4416763,2005,11.0
+197,Western European,Single,Unmarried Man,Female,Single Family Residence,45.0,404762,1924,0.0
+198,Western European,Married,Unmarried Man,Female,Condominium,70.0,385720,2005,11.64179104477612
+199,Western European,Married,Husband and wife,Female,Single Family Residence,60.0,1229018,1997,0.0
+200,Hispanic,Separated,Husband and wife,Female,Single Family Residence,46.0,737847,1995,13.0
+201,Western European,Married,Husband and wife,Female,Single Family Residence,55.0,1981804,2010,5.0
+202,Western European,Married,Husband and wife,Male,Single Family Residence,72.0,1866527,2012,3.0
+203,Western European,Unknown,Husband and wife,Male,Single Family Residence,48.0,719065,1958,24.0
+204,Western European,Unknown,Husband and wife,Male,Single Family Residence,48.0,719065,1958,24.0
+205,Western European,Married,Husband and wife,Female,Single Family Residence,61.0,998630,1926,5.0
+206,Western European,Married,Husband and wife,Female,Single Family Residence,47.0,987142,2005,10.0
+207,Western European,Married,Husband and wife,Female,Single Family Residence,47.0,987142,2005,10.0
+208,Hispanic,Married,Life Estate,Male,Condominium,71.0,98566,2006,9.0

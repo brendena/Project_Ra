@@ -1,0 +1,75 @@
+,ethnicity,marital_status,owner_type,gender,use,age,bld_val,year_built,roof_age
+0,Western European,Single,Joint Tenant/Joint Tenant with right of Survivorship,Female,Single Family Residence,52.0,535000,1850.0,17.0
+1,Unknown,Unknown,Unknown or not provided,Unknown,Apartment house (5+ units),60.56666666666667,466000,1932.394366197183,17.0
+2,Unknown,Unknown,Unknown or not provided,Unknown,Apartment house (5+ units),60.56666666666667,466000,1932.394366197183,17.0
+3,Unknown,Unknown,Unknown or not provided,Unknown,Apartment house (5+ units),60.56666666666667,466000,1932.394366197183,17.0
+4,Western European,Single,Unknown or not provided,Male,Single Family Residence,63.0,564000,1991.0,17.0
+5,Western European,Single,Unknown or not provided,Male,Single Family Residence,63.0,564000,1991.0,17.0
+6,Western European,Single,Unknown or not provided,Male,Condominium,72.0,442000,1920.0,16.58823529411765
+7,Western European,Single,Unknown or not provided,Male,Single Family Residence,63.0,564000,1991.0,17.0
+8,Western European,Single,Unknown or not provided,Male,Single Family Residence,63.0,564000,1991.0,17.0
+9,Western European,Single,Unknown or not provided,Male,Single Family Residence,63.0,564000,1991.0,17.0
+10,Western European,Single,Unknown or not provided,Male,Single Family Residence,63.0,564000,1991.0,17.0
+11,Western European,Married,Unknown or not provided,Male,Condominium,73.0,533000,1988.0,17.0
+12,Jewish,Separated,Joint Tenant/Joint Tenant with right of Survivorship,Female,Condominium,62.0,240000,1930.0,16.58823529411765
+13,Unknown,Unknown,Unknown or not provided,Unknown,"Triplex (3 units, any combination)",60.56666666666667,341000,1884.0,17.0
+14,African American,Married,Joint Tenant/Joint Tenant with right of Survivorship,Female,Single Family Residence,69.0,523000,1925.0,17.0
+15,African American,Married,Joint Tenant/Joint Tenant with right of Survivorship,Female,Single Family Residence,69.0,523000,1925.0,17.0
+16,Western European,Married,Unknown or not provided,Female,Single Family Residence,56.0,421000,1953.0,17.0
+17,Western European,Married,Joint Tenant/Joint Tenant with right of Survivorship,Female,Single Family Residence,71.0,565000,1986.0,17.0
+18,Jewish,Single,Joint Tenant/Joint Tenant with right of Survivorship,Female,Single Family Residence,64.0,276000,1940.0,17.0
+19,Western European,Married,Unknown or not provided,Female,Single Family Residence,57.0,477000,1947.0,17.0
+20,Western European,Married,Joint Tenant/Joint Tenant with right of Survivorship,Male,Single Family Residence,75.0,232000,1929.0,17.0
+21,Western European,Single,Unknown or not provided,Male,Single Family Residence,89.0,863000,1911.0,17.0
+22,Western European,Married,Joint Tenant/Joint Tenant with right of Survivorship,Male,Single Family Residence,51.0,284000,1931.0,17.0
+23,Unknown,Unknown,Joint Tenant/Joint Tenant with right of Survivorship,Unknown,Single Family Residence,60.56666666666667,562000,1855.0,17.0
+24,Other,Unknown,Unknown or not provided,Female,Single Family Residence,58.0,880000,1890.0,17.0
+25,Other,Unknown,Unknown or not provided,Female,Single Family Residence,58.0,880000,1890.0,17.0
+26,Other,Unknown,Unknown or not provided,Female,Single Family Residence,58.0,880000,1890.0,17.0
+27,Unknown,Unknown,Unknown or not provided,Unknown,Condominium,60.56666666666667,274000,1905.0,16.58823529411765
+28,Other,Unknown,Unknown or not provided,Female,Single Family Residence,58.0,880000,1890.0,17.0
+29,Other,Unknown,Unknown or not provided,Female,Single Family Residence,58.0,880000,1890.0,17.0
+30,Other,Unknown,Unknown or not provided,Female,Single Family Residence,58.0,880000,1890.0,17.0
+31,Western European,Single,Joint Tenant/Joint Tenant with right of Survivorship,Male,Single Family Residence,67.0,217000,1929.0,6.0
+32,Other,Married,Joint Tenant/Joint Tenant with right of Survivorship,Female,Single Family Residence,73.0,1409000,1902.0,17.0
+33,Unknown,Unknown,Joint Tenant/Joint Tenant with right of Survivorship,Unknown,Condominium,60.56666666666667,310000,2004.0,11.0
+34,Other,Separated,Joint Tenant/Joint Tenant with right of Survivorship,Female,Single Family Residence,72.0,482000,1993.0,18.0
+35,Scandinavian,Married,Joint Tenant/Joint Tenant with right of Survivorship,Female,Single Family Residence,54.0,319000,1951.0,17.0
+36,Western European,Single,Joint Tenant/Joint Tenant with right of Survivorship,Female,"Duplex (2 units, any combination)",52.0,538000,1889.0,17.0
+37,East Asian,Single,Joint Tenant/Joint Tenant with right of Survivorship,Female,Single Family Residence,45.0,355000,1918.0,17.0
+38,Western European,Married,Joint Tenant/Joint Tenant with right of Survivorship,Female,Single Family Residence,42.0,818000,1940.0,18.0
+39,Western European,Single,Unknown or not provided,Male,Condominium,54.0,264000,1985.0,17.0
+40,Other,Unknown,Unknown or not provided,Female,Single Family Residence,58.0,880000,1890.0,17.0
+41,Other,Unknown,Unknown or not provided,Female,Single Family Residence,58.0,880000,1890.0,17.0
+42,Unknown,Unknown,Unknown or not provided,Unknown,Condominium,60.56666666666667,274000,1905.0,16.58823529411765
+43,Other,Unknown,Unknown or not provided,Female,Single Family Residence,58.0,880000,1890.0,17.0
+44,Unknown,Unknown,Unknown or not provided,Unknown,Condominium,60.56666666666667,274000,1905.0,16.58823529411765
+45,Unknown,Unknown,Unknown or not provided,Unknown,Condominium,60.56666666666667,274000,1905.0,16.58823529411765
+46,Other,Unknown,Unknown or not provided,Female,Single Family Residence,58.0,880000,1890.0,17.0
+47,Other,Unknown,Unknown or not provided,Female,Single Family Residence,58.0,880000,1890.0,17.0
+48,Other,Unknown,Unknown or not provided,Female,Single Family Residence,58.0,880000,1890.0,17.0
+49,Western European,Single,Joint Tenant/Joint Tenant with right of Survivorship,Male,Single Family Residence,45.0,243000,1961.0,17.0
+50,African American,Married,Joint Tenant/Joint Tenant with right of Survivorship,Female,Single Family Residence,69.0,523000,1925.0,17.0
+51,Western European,Married,Unknown or not provided,Female,Single Family Residence,68.0,353000,1925.0,17.0
+52,Unknown,Unknown,Joint Tenant/Joint Tenant with right of Survivorship,Unknown,Condominium,60.56666666666667,320000,1988.0,17.0
+53,Western European,Single,Joint Tenant/Joint Tenant with right of Survivorship,Male,Single Family Residence,63.0,477000,1996.0,17.0
+54,Western European,Married,Joint Tenant/Joint Tenant with right of Survivorship,Female,"Duplex (2 units, any combination)",51.0,434000,1906.0,6.0
+55,Scandinavian,Married,Joint Tenant/Joint Tenant with right of Survivorship,Female,Single Family Residence,61.0,472000,1906.0,17.0
+56,Western European,Married,Company/Corporation/Incorporated,Male,Single Family Residence,56.0,367000,1970.0,17.0
+57,Western European,Married,Company/Corporation/Incorporated,Male,Single Family Residence,56.0,367000,1970.0,17.0
+58,Western European,Married,Company/Corporation/Incorporated,Male,Single Family Residence,56.0,367000,1970.0,17.0
+59,Western European,Married,Company/Corporation/Incorporated,Male,Single Family Residence,56.0,367000,1970.0,17.0
+60,Western European,Married,Company/Corporation/Incorporated,Male,Single Family Residence,56.0,367000,1970.0,17.0
+61,Western European,Married,Company/Corporation/Incorporated,Male,Single Family Residence,56.0,367000,1970.0,17.0
+62,Western European,Married,Company/Corporation/Incorporated,Male,Single Family Residence,56.0,367000,1970.0,17.0
+63,Hispanic,Unknown,Joint Tenant/Joint Tenant with right of Survivorship,Male,Single Family Residence,49.0,563000,1895.0,17.0
+64,Western European,Single,Unknown or not provided,Female,"Duplex (2 units, any combination)",74.0,622000,1923.0,14.0
+65,Unknown,Unknown,Unknown or not provided,Unknown,Single Family Residence,60.56666666666667,410000,1940.0,17.0
+66,Western European,Married,Joint Tenant/Joint Tenant with right of Survivorship,Male,"Duplex (2 units, any combination)",63.0,437000,1910.0,17.0
+67,Other,Single,Joint Tenant/Joint Tenant with right of Survivorship,Female,Single Family Residence,60.0,364000,1940.0,17.0
+68,Hispanic,Unknown,Joint Tenant/Joint Tenant with right of Survivorship,Male,Single Family Residence,49.0,563000,1895.0,17.0
+69,Western European,Married,Unknown or not provided,Female,Single Family Residence,64.0,428000,1925.0,17.0
+70,Western European,Married,Joint Tenant/Joint Tenant with right of Survivorship,Male,"Duplex (2 units, any combination)",62.0,431000,1889.0,17.0
+71,Mediterranean,Unknown,Unknown or not provided,Male,Condominium,60.56666666666667,149000,1984.0,18.0
+72,Unknown,Unknown,Trustee,Unknown,Single Family Residence,60.56666666666667,262000,1956.0,17.0
+73,Other,Single,Trustee,Unknown,Single Family Residence,71.0,258000,1915.0,17.0
