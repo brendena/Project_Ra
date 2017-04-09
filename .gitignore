@@ -1,4 +1,16 @@
 *.log
 *.pyc
-node_modules
+*checkpoint.ipynb
+*.swp
+.pynb_checkpoints
+Albany.csv
+New_York.csv
+TampaHouses.csv
+Seattle.csv
+NY_Albany.csv
+GA_Albany.csv
+OR_Albany.csv
+CA_Albany.csv
+FL_Tampa.csv
+node_module
 __pycache__
